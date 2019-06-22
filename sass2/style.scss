@@ -179,7 +179,6 @@ body {
         display: flex;
         .slider-img {
           width: 45%;
-
           img {
             width: 100%;
           }
@@ -349,24 +348,6 @@ body {
             &:first-of-type {
               margin-left: 0;
             }
-                         
-            .loading-bar {
-              display: block;
-              height: 3px;
-              width: 90px;
-              background-color: grey;
-              position: relative;
-              text-align: center;
-              margin:auto;
-              margin-top: 3px;
-
-              .loading-bar-red {
-                width:75%;
-                height: 100%;
-                background-color: red;
-                position: absolute;
-              }
-            }
           }
         }
       }
@@ -397,7 +378,13 @@ body {
           display: none;
         }
         .slider-img {
-             
+          img {
+            width: 253px
+          }
+        }
+        
+      }
+      
       .loading-bar {
         display: block;
         height: 3px;
@@ -415,13 +402,6 @@ body {
           position: absolute;
         }
       }
-          img {
-            width: 253px
-          }
-        }
-        
-      }
-   
       }
     }  
 
