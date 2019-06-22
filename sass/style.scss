@@ -170,7 +170,7 @@ body {
       padding:0;
       margin: 0 0 5px 0;
       font-size: 16px;
-      color:red;
+      color: #f2f2f2;
     }
     .slider-container {
       width: 400%;
@@ -207,13 +207,14 @@ body {
         justify-content: space-between;
  
         .slider-img {
-          height: 120px;
           margin: 0 2px 0 2px;
-          margin-bottom:40px;
+          margin-bottom: 5px;
           width: calc(50% - 8px);
 
           img {
-            width:100%;
+            width: 100%;
+            margin-right: 5px;
+            align-items: center;
           }
         }
       
@@ -282,10 +283,8 @@ body {
   }
 
   .index-banner {
-    background-image: url(../assets-tp/blacksummer-background-desktop.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
+    background-image: url(https://courseit.com.ar/static/courflix/assets/black-summer-background.jpg);
+    background-size: cover;
 
     .index-banner-mobile {
         display:none;
@@ -358,6 +357,7 @@ body {
     width: calc(100% - 50px);
     margin: 0 0 50px 50px;
     .categories-section {
+      margin-top: 40px;
       .slider {
         position: relative;
         flex-wrap:nowrap;
@@ -379,8 +379,7 @@ body {
         }
         .slider-img {
           img {
-            height:100%;
-            width:auto;
+            width: 253px
           }
         }
         
