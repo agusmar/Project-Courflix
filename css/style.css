@@ -287,6 +287,22 @@ body {
   .main-container .categories-container-carousel .categories-section .slider-container .slider-carousel .slider-img:first-of-type {
     margin-left: 0;
   }
+  .main-container .categories-container-carousel .categories-section .slider-container .slider-carousel .slider-img .loading-bar {
+    display: block;
+    height: 3px;
+    width: 90px;
+    background-color: grey;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 3px;
+  }
+  .main-container .categories-container-carousel .categories-section .slider-container .slider-carousel .slider-img .loading-bar .loading-bar-red {
+    width: 75%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+  }
   .main-container .categories-container {
     width: calc(100% - 50px);
     margin: 0 0 50px 50px;
@@ -314,7 +330,7 @@ body {
   .main-container .categories-container .categories-section .slider .slider-img img {
     width: 253px;
   }
-  .main-container .categories-container .categories-section .loading-bar {
+  .main-container .categories-container .categories-section .slider .loading-bar {
     display: block;
     height: 3px;
     width: 90px;
@@ -324,25 +340,30 @@ body {
     margin: auto;
     margin-top: 3px;
   }
-  .main-container .categories-container .categories-section .loading-bar .loading-bar-red {
+  .main-container .categories-container .categories-section .slider .loading-bar .loading-bar-red {
     width: 75%;
     height: 100%;
     background-color: red;
     position: absolute;
   }
-  .main-container header.categories {
+  .main-container .categories-container .categories-section .slider img {
+    width: 253px;
+  }
+
+  header.categories {
     position: relative;
     background-color: #161616;
   }
-  .main-container .categories-title {
+
+  .categories-title {
     padding: 10px 0 30px 50px;
   }
-  .main-container .categories-title .categories-type {
+  .categories-title .categories-type {
     font-size: 12px;
     color: grey;
     display: inline-block;
   }
-  .main-container .categories-title .categories-movie-title {
+  .categories-title .categories-movie-title {
     font-size: 24px;
     font-weight: bolder;
   }

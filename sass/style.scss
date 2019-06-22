@@ -397,7 +397,12 @@ body {
           display: none;
         }
         .slider-img {
-             
+          img {
+            width: 253px
+          }
+        }
+        
+      
       .loading-bar {
         display: block;
         height: 3px;
@@ -446,5 +451,5 @@ body {
     }
   }
   }
-}
+
 
